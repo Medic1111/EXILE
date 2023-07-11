@@ -1,7 +1,9 @@
 const ContactForm = () => {
   return (
     <form className=" bg-slate-950  w-full lg:w-1/2 h-full md:min-h-screen flex flex-col items-start justify-start  gap-8 p-5 lg:px-10 py-10 lg:py-0">
-      <p className="text-blue-400 mt-10  text-7xl mb-5">CONTACT US</p>
+      <p className="text-blue-400 text-slate-50 mt-10  text-5xl lg:text-7xl mb-5">
+        CONTACT US
+      </p>
       <input
         type="text"
         placeholder="Name"
@@ -21,7 +23,7 @@ const ContactForm = () => {
       <input
         type="submit"
         placeholder="Phone number"
-        className="bg-slate-950 text-xl mt-10 w-full h-[7.5vh]  border-solid border-2 outline-blue-400 text-slate-50 cursor-pointer rounded pl-[0.25em] hover:bg-slate-50 hover:text-slate-950"
+        className="bg-slate-950 text-xl mt-10 w-full h-[7.5vh]  border-solid border-2 outline-blue-400 text-slate-50 cursor-pointer rounded pl-[0.25em] hover:bg-lime-400 hover:text-slate-950"
       />
     </form>
   );

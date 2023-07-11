@@ -8,7 +8,7 @@ const Text = () => {
 
   return (
     <div className="h-full">
-      <h2 className=" text-4xl lg:text-5xl lg:w-[90%]">
+      <h2 className=" text-3xl lg:text-5xl lg:w-[90%]">
         We strive to provide you with top-notch quality services, and we are
         available to answer your questions.
       </h2>

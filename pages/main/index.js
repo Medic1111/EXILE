@@ -4,7 +4,7 @@ import { common } from "../../components/common_styles/common";
 
 const Main = () => {
   return (
-    <main className={common.pageContainer}>
+    <main className={`${common.pageContainer} `}>
       <Intro />
       <Contact />
     </main>
