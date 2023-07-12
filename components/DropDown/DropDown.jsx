@@ -9,6 +9,7 @@ const DropDown = () => {
   return (
     <ul className="list-none">
       <li
+        data-testid="trigger-shop"
         onClick={() => setShowShop((prev) => !prev)}
         className="flex items-center justify-between bg-slate-950 border-solid border-b-2  border-slate-50 w-full text-end px-2 py-10 text-slate-50 text-3xl md:text-5xl cursor-pointer hover:bg-slate-50 hover:text-slate-950 hover:border-slate-950"
       >
@@ -19,12 +20,16 @@ const DropDown = () => {
       </li>
       {/* shop */}
       {showShop && (
-        <li className="bg-slate-50 min-h-[85vh] border-solid border-b-2  border-slate-950">
+        <li
+          data-testid="shop"
+          className="bg-slate-50 min-h-[85vh] border-solid border-b-2  border-slate-950"
+        >
           <p>SHOP</p>
         </li>
       )}
       {/* shop end */}
       <li
+        data-testid="trigger-tattoo"
         onClick={() => setShowTattoo((prev) => !prev)}
         className="flex items-center justify-between bg-slate-950 border-solid border-b-2 border-slate-50 text-end px-2 py-10 text-slate-50 text-3xl md:text-5xl  cursor-pointer hover:bg-slate-50 hover:text-slate-950 hover:border-slate-950"
       >
@@ -35,12 +40,16 @@ const DropDown = () => {
       </li>
       {/* Tattoo */}
       {showTattoo && (
-        <li className="bg-slate-50 min-h-[85vh] border-solid border-b-2  border-slate-950">
+        <li
+          data-testid="tattoo"
+          className="bg-slate-50 min-h-[85vh] border-solid border-b-2  border-slate-950"
+        >
           <p>Tattoo</p>
         </li>
       )}
       {/* Tattoo end */}
       <li
+        data-testid="trigger-piercing"
         onClick={() => setShowPiercing((prev) => !prev)}
         className="flex items-center justify-between bg-slate-950 border-solid border-b-2 border-slate-50 w-full text-end px-2 py-10 text-slate-50 text-3xl md:text-5xl  cursor-pointer hover:bg-slate-50 hover:text-slate-950 hover:border-slate-950"
       >
@@ -51,7 +60,10 @@ const DropDown = () => {
       </li>
       {/* Piercing */}
       {showPiercing && (
-        <li className="bg-slate-50 min-h-[85vh] border-solid border-b-2  border-slate-950">
+        <li
+          data-testid="piercing"
+          className="bg-slate-50 min-h-[85vh] border-solid border-b-2  border-slate-950"
+        >
           <p>Piercing</p>
         </li>
       )}
