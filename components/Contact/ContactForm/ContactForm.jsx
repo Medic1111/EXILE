@@ -10,23 +10,23 @@ const ContactForm = () => {
       <input
         type="text"
         placeholder="Name"
-        className="mt-10 text-slate-50 text-xl bg-slate-950 w-full h-[7.5vh]  border-solid border-2 border-slate-50 outline-blue-500 rounded pl-[0.25em]"
+        className="mt-10 text-slate-50 text-xl bg-slate-950 w-full h-[7.5vh]  border-solid border-2 border-slate-50 outline-rose-500  pl-[0.25em]"
       />
       <input
         type="text"
         placeholder="Email"
-        className="text-slate-50 text-xl bg-slate-950 w-full h-[7.5vh]   border-solid border-2 border-slate-50 outline-blue-500 rounded pl-[0.25em]"
+        className="text-slate-50 text-xl bg-slate-950 w-full h-[7.5vh]   border-solid border-2 border-slate-50 outline-rose-500  pl-[0.25em]"
       />
       <input
         type="tel"
         placeholder="Phone number"
-        className="text-slate-50 text-xl bg-slate-950 w-full h-[7.5vh]   border-solid border-2 border-slate-50 outline-blue-500 rounded pl-[0.25em]"
+        className="text-slate-50 text-xl bg-slate-950 w-full h-[7.5vh]   border-solid border-2 border-slate-50 outline-rose-500  pl-[0.25em]"
       />
       {showFeed && <p className="pt-5 text-yellow-500 underline">feedback</p>}
       <input
         data-testid="submit"
         type="submit"
-        className="bg-slate-950 text-xl mt-10 w-full h-[7.5vh]  border-solid border-2 outline-blue-400 text-slate-50 cursor-pointer rounded pl-[0.25em] hover:bg-lime-400 hover:text-slate-950"
+        className="bg-slate-950 text-xl mt-10 w-full h-[7.5vh]  border-solid border-2 outline-rose-400 text-slate-50 cursor-pointer  pl-[0.25em] hover:bg-rose-600 hover:border-slate-950 hover:text-slate-950"
       />
     </form>
   );

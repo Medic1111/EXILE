@@ -1,27 +1,29 @@
 import Image from "next/image";
-import Pierce from "../../public/pierce.png";
-import Art from "../../public/art.png";
+import Z from "../../public/z.png";
+import Tiger from "../../public/tiger.jpg";
 
+// WALLPAPERACCESS
 const Intro = () => {
   return (
     <>
-      <div className="lg:min-h-screen w-full flex flex-col justify-between">
-        <h1 className="sm:tracking-wider  px-2 py-10 text-slate-50 text-5xl md:text-8xl">
-          BRINGING YOU <br /> CREATIVE,
+      <div className="w-full flex flex-col justify-between">
+        <h1 className="uppercase  tracking-wide  px-2 py-10 text-slate-50 text-5xl  md:text-8xl">
+          Bringing you <br /> <span className="">Creat</span>iv
+          <span className="">e</span>,
         </h1>
         <Image
-          className="  w-full bg-rose-500 object-cover sm:h-[50vh] lg:h-[60vh]"
-          src={Pierce}
+          className=" w-full  bg-amber-500  object-cover  sm:h-[50vh] lg:h-[40vh]"
+          src={Z}
         />
       </div>
-      <div className="sm:tracking-wider lg:min-h-screen w-full  flex flex-col justify-between">
-        <h1 className="text-end px-2 py-10 text-slate-50 text-5xl md:text-8xl">
-          AND QUALITY <br /> BODY ART
+      <div className="  w-full text-end flex flex-col justify-between">
+        <h1 className=" tracking-wide px-2 py-10 text-slate-50 text-5xl md:text-8xl">
+          AND QUALITY <br /> BODY <span className="text-rose-600">ART</span>
         </h1>
 
         <Image
-          className=" w-full bg-amber-400 object-cover sm:h-[50vh] lg:h-[60vh]"
-          src={Art}
+          className="w-full  bg-rose-600 object-cover sm:h-[50vh] lg:h-[40vh]"
+          src={Tiger}
         />
       </div>
     </>
