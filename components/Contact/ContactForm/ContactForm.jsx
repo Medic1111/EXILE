@@ -26,7 +26,7 @@ const ContactForm = () => {
       <input
         data-testid="submit"
         type="submit"
-        className="bg-slate-950 text-xl mt-10 w-full h-[7.5vh]  border-solid border-2 outline-rose-400 text-slate-50 cursor-pointer  pl-[0.25em] hover:bg-rose-600 hover:border-slate-950 hover:text-slate-950"
+        className="bg-slate-950 text-xl mt-10 w-full h-[7.5vh]  border-solid border-2 outline-rose-400 text-slate-50 cursor-pointer  pl-[0.25em] hover:bg-amber-500 hover:border-slate-950 hover:text-slate-950"
       />
     </form>
   );
