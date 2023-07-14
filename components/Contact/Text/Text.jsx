@@ -15,7 +15,7 @@ const Text = () => {
       <span className="my-5 lg:my-10  flex  gap-3  text-l">
         <BiPhoneCall className="text-2xl" />{" "}
         <a
-          className="text-rose-400 underline hover:text-rose-600"
+          className="text-amber-500 underline hover:text-rose-600"
           href="tel:786507-5653"
         >
           (786) 507-5653
@@ -23,7 +23,7 @@ const Text = () => {
         <HiOutlineMapPin className="text-2xl" />{" "}
         <button
           onClick={() => setShowMap((prev) => !prev)}
-          className="text-rose-400 underline hover:text-rose-600"
+          className="text-amber-500 underline hover:text-rose-600"
         >
           Directions
         </button>

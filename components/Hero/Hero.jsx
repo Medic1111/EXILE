@@ -23,7 +23,7 @@ const Hero = () => {
       <Link
         aria-label="link to enter the application"
         href={"/main"}
-        className="h-16 cursor-pointer flex items-center justify-center rounded-l text-4xl border-2 border-solid border-slate-50 text-slate-50 lg:w-1/3 lg:mt-5 hover:bg-slate-50 hover:text-slate-950 mb-14 md:mb-0 "
+        className="h-16 cursor-pointer flex items-center justify-center  text-4xl border-2 border-solid border-slate-50 text-slate-50 lg:w-1/3 lg:mt-5 hover:bg-slate-50 hover:text-slate-950 mb-14 md:mb-0 "
       >
         <AiOutlineArrowRight />
       </Link>
