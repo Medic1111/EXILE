@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Z from "../../public/z.png";
 import Tiger from "../../public/tiger.jpg";
-
+import Logo from "../../public/logobanner.png";
 // WALLPAPERACCESS
 const Intro = () => {
   return (
@@ -11,10 +11,12 @@ const Intro = () => {
           Bringing you <br />
           Creative,
         </h1>
-        <Image
-          className=" w-full  bg-amber-500  object-cover  sm:h-[50vh] lg:h-[40vh]"
-          src={Z}
-        />
+        <div className=" w-full flex  min-h-[28vh] items-center justify-center  bg-amber-500  sm:h-[50vh] lg:h-[40vh]">
+          <Image
+            className=" object-cover   w-full sm:min-h-auto md:w-2/3   lg:3/4   "
+            src={Logo}
+          />
+        </div>
       </div>
       <div className="  w-full text-end flex flex-col justify-between">
         <h1 className=" tracking-wide px-2 py-10 text-slate-50 text-5xl md:text-8xl">
