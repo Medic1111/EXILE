@@ -4,7 +4,7 @@ const Profile = ({ title, exp, portfolio, book, src }) => {
   return (
     <li
       data-testid="tattoo"
-      className="flex flex-col lg:flex-row justify-between bg-slate-50 h-96 w-screen h-auto border-solid border-b-2 mt-[-5px] border-slate-950 "
+      className="flex flex-col lg:flex-row justify-between bg-slate-50 h-96 w-screen h-auto min-h-[85vh] border-solid border-b-2 mt-[-5px] border-slate-950 "
     >
       <div className="h-[100%] flex  flex-col justify-between w-full   ">
         <div className=" border-b-2 border-solid border-slate-950">
@@ -18,7 +18,7 @@ const Profile = ({ title, exp, portfolio, book, src }) => {
             <span className="text-rose-700">
               {new Date().getFullYear() - exp}
             </span>{" "}
-            YEARS
+            -YEARS
           </p>
         </div>
         <div className="mb-10 h-full  flex items-start gap-5 justify-end flex-col ">
