@@ -27,7 +27,14 @@ const DropDown = () => {
         stateFoo={setShowTattoo}
         title={"cassandra"}
       />
-      {showTattoo && <Profile title={"TATTOO ARTIST"} exp={2018} src={X} />}
+      {showTattoo && (
+        <Profile
+          title={"TATTOO ARTIST"}
+          exp={2018}
+          src={X}
+          portfolio={"cassandra"}
+        />
+      )}
       {/* PIERCING */}
       <DropTab
         id="_PIERCE"
@@ -35,7 +42,14 @@ const DropDown = () => {
         stateFoo={setShowPiercing}
         title={"jorian"}
       />
-      {showPiercing && <Profile title={"body piercer"} src={Y} exp={1998} />}
+      {showPiercing && (
+        <Profile
+          title={"body piercer"}
+          src={Y}
+          exp={1998}
+          portfolio={"jorian"}
+        />
+      )}
     </ul>
   );
 };

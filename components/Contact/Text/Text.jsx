@@ -2,36 +2,34 @@ import { BiPhoneCall } from "react-icons/bi";
 import { HiOutlineMapPin } from "react-icons/hi2";
 import Map from "../Map/Map";
 import { useState } from "react";
+import { styles } from "../styles";
 
 const Text = () => {
   const [showMap, setShowMap] = useState(false);
 
   return (
-    <div className="h-full">
-      <h2 className=" text-3xl lg:text-5xl lg:w-[90%]">
+    <div className={styles.textBox}>
+      <h2 className={styles.h2}>
         We strive to provide you with top-notch quality services, and we are
         available to answer your questions.
       </h2>
-      <span className="my-5 lg:my-10  flex  gap-3  text-l">
-        <BiPhoneCall className="text-2xl" />{" "}
-        <a
-          className="text-amber-500 underline hover:text-rose-600"
-          href="tel:786507-5653"
-        >
+      <span className={styles.span}>
+        <BiPhoneCall className={styles.icon} />{" "}
+        <a className={styles.anchor} href="tel:786507-5653">
           (786) 507-5653
         </a>
-        <HiOutlineMapPin className="text-2xl" />{" "}
+        <HiOutlineMapPin className={styles.icon} />{" "}
         <button
           onClick={() => setShowMap((prev) => !prev)}
-          className="text-amber-500 underline hover:text-rose-600"
+          className={styles.anchor}
         >
           Directions
         </button>
       </span>
 
-      <p className="text-slate-600">6634 Collins Avenue</p>
-      <p className="text-slate-600">Miami Beach, FL 33141</p>
-      <p className="text-slate-600">USA</p>
+      <p className={styles.p}>6634 Collins Avenue</p>
+      <p className={styles.p}>Miami Beach, FL 33141</p>
+      <p className={styles.p}>USA</p>
       {showMap && <Map />}
     </div>
   );
