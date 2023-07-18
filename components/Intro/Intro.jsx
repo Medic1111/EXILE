@@ -1,34 +1,44 @@
 import Image from "next/image";
-import Z from "../../public/z.png";
+import Logo from "../../public/logo.png";
+import Tat1 from "../../public/tat-2.png";
+import Tat3 from "../../public/tat3.png";
 import Tiger from "../../public/tiger.jpg";
-import Logo from "../../public/logobanner.png";
+
 // WALLPAPERACCESS
 const Intro = () => {
   return (
     <>
-      <div className="w-full flex flex-col justify-between">
-        <h1 className="uppercase  tracking-wide  px-2 py-10 text-slate-50 text-5xl  md:text-8xl">
-          Bringing you <br />
-          Creative,
-        </h1>
-        <div className=" w-full flex  min-h-[28vh] items-center justify-center  bg-amber-500  sm:h-[50vh] lg:h-[40vh]">
-          <Image
-            className=" object-cover   w-full sm:min-h-auto md:w-2/3   lg:3/4   "
-            src={Logo}
-          />
+      <section class="overflow-auto grid p-5 lg:p-10 min-h-screen  grid-cols-2  sm:grid-rows-auto sm:grid-cols-4   lg:grid-cols-5 gap-5 wrap bg-slate-50">
+        <div class="flex  items-center justify-center  border-solid border-2 border-[#0d1322] ">
+          <Image className="  w-full " src={Logo} />
         </div>
-      </div>
-      <div className="  w-full text-end flex flex-col justify-between">
-        <h1 className=" tracking-wide px-2 py-10 text-slate-50 text-5xl md:text-8xl">
-          AND QUALITY <br /> BODY <span className="text-rose-600">ART</span>
-        </h1>
+        <div class="p-1  text-2xl xl:text-4xl text-[#0d1322]  h-1/2 border-solid border-2 border-[#0d1322] text-[#0d1322] ">
+          EXILE
+        </div>
 
-        <Image
-          className="w-full  bg-rose-600 object-cover sm:h-[50vh] lg:h-[40vh]"
-          src={Tiger}
-        />
-      </div>
-      <div className="bg-slate-950 border-b-2 border-solid border-slate-50 h-44 md:h-64 text-slate-50 px-1 text-5xl lg:text-8xl flex items-center justify-start">
+        <div class="border-solid border-2 border-[#0d1322] h-full col-span-2 row-span-1  bg-[#0d1322]">
+          <Image className="w-full h-full object-cover" src={Tiger} />
+        </div>
+        <div className="col-span-2 row-span-2 border-solid  bg-[#0d1322] border-2 border-[#0d1322] text-[#0d1322] items-center  justify-between flex ">
+          <Image className="w-full h-full object-cover" src={Tat1} />
+        </div>
+
+        <div class="col-span-1 p-1 border-solid border-2 border-[#0d1322]  lg:h-1/2 items-start justify-start ">
+          <p className="  xl:text-4xl text-2xl text-[#0d1322] ">TATOO</p>
+        </div>
+        <div class="p-1 text-2xl xl:text-4xl  border-solid flex flex-col border-2 border-[#0d1322] col-span-1 justify-end items-start  text-[#0d1322] ">
+          AND
+        </div>
+        <div class="items-center  justify-between flex text-2xl    border-solid border-2 border-[#0d1322] flex text-[#0d1322] flex-col row-span-1 bg-[#0d1322]">
+          <Image className="w-full h-full object-cover" src={Tat3} />
+        </div>
+        <div class="col-span-1 "></div>
+        <div class="col-span-1 text-2xl  xl:text-5xl  "></div>
+        <div class="p-1 xl:text-4xl border-solid border-2 border-[#0d1322] col-span-1 text-2xl    flex items-end justify-end text-[#0d1322] text-[#0d1322] ">
+          PIERCING
+        </div>
+      </section>
+      <div className="bg-[#0d1322] border-b-2 border-solid border-slate-50 h-44 md:h-64 text-slate-50 px-1 text-5xl lg:text-8xl flex items-center justify-start text-blue-50">
         WALK-IN
       </div>
     </>
