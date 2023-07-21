@@ -4,7 +4,14 @@ const ContactForm = () => {
   const [showFeed, setShowFeed] = useState(false);
 
   return (
-    <form className={styles.form}>
+    <form
+      style={{
+        backgroundColor: "#0d1322",
+        backgroundImage:
+          'url("https://www.transparenttextures.com/patterns/argyle.png")',
+      }}
+      className={styles.form}
+    >
       <p className={styles.formTitle}>CONTACT US</p>
       <input
         type="text"
