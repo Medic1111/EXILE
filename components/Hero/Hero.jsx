@@ -3,7 +3,6 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Image from "next/image";
 import HeroImg from "../../public/mach.png";
 import { styles } from "./styles";
-import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
   return (
@@ -20,15 +19,13 @@ const Hero = () => {
           src={HeroImg}
         /> */}
       </div>
-      <Fade>
-        <Link
-          aria-label="link to enter the application"
-          href={"/main"}
-          className={styles.btn}
-        >
-          <AiOutlineArrowRight />
-        </Link>
-      </Fade>
+      <Link
+        aria-label="link to enter the application"
+        href={"/main"}
+        className={styles.btn}
+      >
+        <AiOutlineArrowRight />
+      </Link>
     </section>
   );
 };
