@@ -7,13 +7,16 @@ import { styles } from "./styles";
 const Hero = () => {
   return (
     <section className={styles.section}>
-      <div>
-        <h1 className={styles.title}>Exile Tattoo and Piercing</h1>
-        <Image
+      <div className={styles.txtBox}>
+        <h1 className={styles.title}>
+          Exile <br /> Tattoo <br />
+          and <br /> Piercing
+        </h1>
+        {/* <Image
           alt="Shows a man with tattoo on his back and arms"
           className={styles.img}
           src={HeroImg}
-        />
+        /> */}
       </div>
       <Link
         aria-label="link to enter the application"
