@@ -1,5 +1,5 @@
 import { useState } from "react";
-import X from "../../public/cass3.png";
+import X from "../../public/cass.png";
 import Y from "../../public/jorian3.png";
 import Profile from "../Profile/Profile";
 import Shop from "../Shop/Shop";
@@ -25,14 +25,14 @@ const DropDown = () => {
         id="_TATTOO"
         state={showTattoo}
         stateFoo={setShowTattoo}
-        title={"cassandra"}
+        title={"cass"}
       />
       {showTattoo && (
         <Profile
           title={"TATTOO ARTIST"}
           exp={2018}
           src={X}
-          portfolio={"cassandra"}
+          portfolio={"cass"}
         />
       )}
       {/* PIERCING */}

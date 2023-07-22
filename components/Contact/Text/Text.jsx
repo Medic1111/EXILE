@@ -9,10 +9,10 @@ const Text = () => {
 
   return (
     <div className={styles.textBox}>
-      <h2 className={styles.h2}>
+      {/* <h2 className={styles.h2}>
         We strive to provide you with top-notch quality services, and we are
         available to answer your questions.
-      </h2>
+      </h2> */}
       <span className={styles.span}>
         <BiPhoneCall className={styles.icon} />{" "}
         <a className={styles.anchor} href="tel:786507-5653">

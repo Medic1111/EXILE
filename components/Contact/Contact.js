@@ -7,11 +7,13 @@ import { styles } from "./styles";
 const Contact = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.leftBox}>
+      {/* <div className={styles.leftBox}>
         <Text />
         <Hours />
-      </div>
+      </div> */}
       <ContactForm />
+      {/* <Text />
+      <Hours /> */}
     </section>
   );
 };
