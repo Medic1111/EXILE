@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { styles } from "../styles";
+import { JackInTheBox } from "react-awesome-reveal";
+
 const ContactForm = () => {
   const [showFeed, setShowFeed] = useState(false);
 
@@ -13,7 +15,7 @@ const ContactForm = () => {
       className={styles.form}
     >
       <p className={styles.formTitle}>
-        GET <br /> IN <br /> TOUCH
+        GET <br /> IN <br /> <JackInTheBox>TOUCH</JackInTheBox>
       </p>
       <input
         type="text"
