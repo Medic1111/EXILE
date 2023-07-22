@@ -20,7 +20,37 @@ function MyApp({ Component, pageProps }) {
           content="Exile Tattoo and Piercing, LLC. Miami Beach local tattoo and body piercing shop located at: 6634 Collins Avenue, Miami Beach, FL 33141, USA"
           key="ogdesc"
         />
+
         <link rel="icon" href="/favicon.ico" />
+
+        {/* RIB FILLED */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap"
+          rel="stylesheet"
+        ></link>
+        {/* MARKER */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+          rel="stylesheet"
+        ></link>
+        {/* OPEN SANS */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+          rel="stylesheet"
+        ></link>
+        {/* RALEWAY */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <Component {...pageProps} />
     </>
