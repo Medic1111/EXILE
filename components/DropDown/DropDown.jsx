@@ -4,7 +4,6 @@ import Y from "../../public/jorian3.png";
 import Profile from "../Profile/Profile";
 import Shop from "../Shop/Shop";
 import DropTab from "../DropTab/DropTab";
-import { Slide } from "react-awesome-reveal";
 
 const DropDown = () => {
   const [showShop, setShowShop] = useState(false);
@@ -14,24 +13,20 @@ const DropDown = () => {
   return (
     <ul className="list-none bg-slate-50">
       {/* SHOP */}
-      <Slide direction="left" triggerOnce>
-        <DropTab
-          id="_SHOP"
-          state={showShop}
-          stateFoo={setShowShop}
-          title={"STUDIO"}
-        />
-      </Slide>
+      <DropTab
+        id="_SHOP"
+        state={showShop}
+        stateFoo={setShowShop}
+        title={"STUDIO"}
+      />
       {showShop && <Shop />}
       {/* TATTO */}
-      <Slide direction="right" triggerOnce>
-        <DropTab
-          id="_TATTOO"
-          state={showTattoo}
-          stateFoo={setShowTattoo}
-          title={"cass"}
-        />
-      </Slide>
+      <DropTab
+        id="_TATTOO"
+        state={showTattoo}
+        stateFoo={setShowTattoo}
+        title={"cass"}
+      />
 
       {showTattoo && (
         <Profile
@@ -42,14 +37,12 @@ const DropDown = () => {
         />
       )}
       {/* PIERCING */}
-      <Slide direction="left" triggerOnce>
-        <DropTab
-          id="_PIERCE"
-          state={showPiercing}
-          stateFoo={setShowPiercing}
-          title={"jorian"}
-        />
-      </Slide>
+      <DropTab
+        id="_PIERCE"
+        state={showPiercing}
+        stateFoo={setShowPiercing}
+        title={"jorian"}
+      />
       {showPiercing && (
         <Profile
           title={"body piercer"}
