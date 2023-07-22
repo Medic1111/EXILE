@@ -8,13 +8,13 @@ import Tiger from "../../public/tiger.jpg";
 const Intro = () => {
   return (
     <>
-      <section
+      {/* <section
         style={{
           backgroundColor: "#0d1322",
           backgroundImage:
             'url("https://www.transparenttextures.com/patterns/argyle.png")',
         }}
-        class="overflow-auto grid p-5 lg:p-10 min-h-screen  grid-cols-2  sm:grid-rows-auto sm:grid-cols-4   lg:grid-cols-5 gap-5 wrap bg-[#0d1322] border-solid border-b-2 border-slate-50"
+        class="overflow-auto grid p-5 lg:p-10 min-h-screen  grid-cols-2  sm:grid-rows-auto sm:grid-cols-4   lg:grid-cols-5 gap-5 wrap bg-[#0d1322] bg-slate-50 border-solid border-b-2 border-slate-50"
       >
         <div class="flex  items-center justify-center  border-solid border-2 border-[#0d1322] border-slate-50 bg-slate-50 ">
           <Image className="  w-full " src={Logo} />
@@ -49,7 +49,7 @@ const Intro = () => {
       </section>
       <div className="bg-[#0d1322]  border-b-2 border-solid border-slate-50 h-44 md:h-64 text-slate-50 px-1 text-5xl lg:text-7xl flex items-center justify-start text-blue-50 pl-5">
         WALK-IN
-      </div>
+      </div> */}
     </>
   );
 };

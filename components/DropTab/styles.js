@@ -1,3 +1,3 @@
 export const styles = {
-  tab: "flex items-center justify-between bg-[#0d1322] border-solid border-b-2  border-slate-50 w-full text-end px-2 py-10 text-slate-50 text-3xl md:text-5xl cursor-pointer  hover:text-slate-50 border-slate-50",
+  tab: "flex items-center justify-between bg-slate-50 border-solid border-b-4  border-[#0d1322] w-full text-end px-5 py-10 text-[#0d1322] text-6xl md:text-6xl lg:text-7xl xl:text-9xl cursor-pointer  hover:bg-rose-600   min-h-[33.36vh]",
 };

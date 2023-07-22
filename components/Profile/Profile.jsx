@@ -21,14 +21,7 @@ const Profile = ({ title, exp, portfolio, book, src }) => {
             PORTFOLIO
           </Link>
           <button className={`${styles.btn} border-y-2`}>BOOK</button>
-          <div
-            style={{
-              backgroundColor: "#0d1322",
-              backgroundImage:
-                'url("https://www.transparenttextures.com/patterns/argyle.png")',
-            }}
-            className={styles.imgBox}
-          >
+          <div className={styles.imgBox}>
             <Image className={styles.img} src={src} />
           </div>
         </div>
