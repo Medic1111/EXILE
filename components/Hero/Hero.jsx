@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Image from "next/image";
-import HeroImg from "../../public/mach.png";
 import { styles } from "./styles";
 
 const Hero = () => {
@@ -12,12 +10,6 @@ const Hero = () => {
           Exile <br /> Tattoo <br />
           and <br /> Piercing
         </h1>
-
-        {/* <Image
-          alt="Shows a man with tattoo on his back and arms"
-          className={styles.img}
-          src={HeroImg}
-        /> */}
       </div>
       <Link
         aria-label="link to enter the application"
