@@ -20,5 +20,5 @@ export const styles = {
   input:
     "  text-#0d1322 text-2xl w-full h-[7.5vh] h-20  outline-rose-600  pl-[0.25em] ",
   submit:
-    "bg-rose-600 font-light text-2xl lg:text-3xl mt-10 w-full h-20  border-solid border-2 outline-amber-400  cursor-pointer text-#0d1322 pl-[0.25em]  border-[#0d1322] px-5 uppercase hover:bg-slate-50 ",
+    "font-marker bg-rose-600 font-light text-2xl lg:text-3xl mt-10 w-full h-20 md:h-26 lg:h-32  border-solid border-4 outline-amber-400  cursor-pointer text-#0d1322 pl-[0.25em]  border-[#0d1322] px-5 uppercase hover:bg-slate-50 ",
 };
