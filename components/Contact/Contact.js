@@ -13,7 +13,7 @@ const Contact = () => {
       </div> */}
       <ContactForm />
       <p
-        className={`${styles.formTitle} font-marker  p-5  cursor-pointer text-end hover:underline decoration-rose-600`}
+        className={`${styles.formTitle} font-marker  px-5  pb-[15vh]  cursor-pointer text-end hover:underline decoration-rose-600 h-[70vh] sm:h-auto flex items-center justify-end  transition  duration-2000 ease-in-out text-9xl  sm:text-7xl `}
       >
         .786
         <br />
