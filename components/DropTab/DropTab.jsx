@@ -9,7 +9,7 @@ const DropTab = ({ id, title, stateFoo, state }) => {
       onClick={() => stateFoo((prev) => !prev)}
       className={styles.tab}
     >
-      <span>{state ? <AiOutlineUp /> : <AiOutlineDown />}</span>
+      <span>{state ? "^" : "v"}</span>
       <p>{title.toUpperCase()}</p>
     </button>
   );
