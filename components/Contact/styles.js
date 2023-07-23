@@ -9,7 +9,7 @@ export const styles = {
   anchor: "text-amber-500 underline hover:text-amber-600",
   p: "text-blue-950",
   // map: "w-full  mt-1 h-2/6 border-solid border-2 border-slate-950  p-5",
-  map: "w-full  h-screen mt-10 -hue-rotate-30",
+  map: "w-full  h-screen   -hue-rotate-30 border-solid border-t-4 border-[#0d1322]",
 
   hoursUl: "text-slate-600 list-none w-full sm:w-1/3 flex flex-col gap-1",
   hoursTitle: "text-xl text-[#0d1322] mb-5",
