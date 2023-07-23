@@ -16,7 +16,8 @@ const Hero = () => {
         href={"/main"}
         className={styles.btn}
       >
-        <AiOutlineArrowRight />
+        {/* <AiOutlineArrowRight /> */}
+        {">"}
       </Link>
     </section>
   );

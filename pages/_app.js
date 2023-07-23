@@ -23,13 +23,6 @@ function MyApp({ Component, pageProps }) {
 
         <link rel="icon" href="/favicon.ico" />
 
-        {/* RIB FILLED */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap"
-          rel="stylesheet"
-        ></link>
         {/* MARKER */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,13 +35,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-          rel="stylesheet"
-        ></link>
-        {/* RALEWAY */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
           rel="stylesheet"
         ></link>
       </Head>
