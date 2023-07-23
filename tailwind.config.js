@@ -10,11 +10,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      cursive: ["Ribeye", "cursive"],
-      reg: ["Roboto", "sans-serif"],
       marker: ["Permanent Marker", "cursive"],
-      // marker: ["Ribeye", "cursive"],
-
       san: ["Open Sans", "sans-serif"],
     },
     extend: {
