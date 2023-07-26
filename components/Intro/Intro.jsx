@@ -3,7 +3,7 @@ const Intro = () => {
   return (
     <div class="flex h-screen w-full items-center justify-center  border-solid border-b-4 border-[#0d1322] bg-slate-50">
       <video
-        className="sm:object-cover w-full h-full "
+        className="object-cover w-full h-full "
         loop
         muted
         autoPlay
