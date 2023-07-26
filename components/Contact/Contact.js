@@ -1,16 +1,10 @@
-import Text from "./Text/Text";
 import ContactForm from "./ContactForm/ContactForm";
-import Hours from "./Hours/Hours";
 import { styles } from "./styles";
 import Map from "./Map/Map";
 
 const Contact = () => {
   return (
     <section className={styles.section}>
-      {/* <div className={styles.leftBox}>
-        <Text />
-        <Hours />
-      </div> */}
       <ContactForm />
       <div className=" px-5  pb-[15vh] pt-[10vh] h-[70vh] sm:h-auto  flex items-center justify-start">
         <a
@@ -26,8 +20,6 @@ const Contact = () => {
         </a>
       </div>
       <Map />
-      {/* <Text />
-      <Hours /> */}
     </section>
   );
 };
