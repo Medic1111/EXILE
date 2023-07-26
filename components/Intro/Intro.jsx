@@ -8,7 +8,8 @@ const Intro = () => {
         muted
         autoPlay
         defaultMuted
-        playsinline
+        webkit-playsInline
+        playsInline
       >
         <source
           src={
