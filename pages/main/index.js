@@ -8,6 +8,7 @@ const Main = () => {
     <main className={`${common.pageContainer} `}>
       <Intro />
       <DropDown />
+
       <Contact />
     </main>
   );
