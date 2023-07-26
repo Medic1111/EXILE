@@ -33,7 +33,8 @@ const Shop = () => {
             muted
             autoPlay
             defaultMuted
-            playsinline
+            webkit-playsInline
+            playsInline
           >
             <source
               src={
