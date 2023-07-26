@@ -12,11 +12,11 @@ const Contact = () => {
         <Hours />
       </div> */}
       <ContactForm />
-      <div className=" px-5  pb-[15vh] pt-[10vh] h-[70vh] sm:h-auto  flex items-center justify-end">
+      <div className=" px-5  pb-[15vh] pt-[10vh] h-[70vh] sm:h-auto  flex items-center justify-start">
         <a
           href="tel:786507-5653"
           aria-label="7 8 6. 5 0 7. 5 6 5 3."
-          className={`${styles.formTitle} font-marker  cursor-pointer text-end hover:underline decoration-rose-600 transition  duration-2000 ease-in-out text-9xl  sm:text-7xl `}
+          className={`${styles.formTitle} font-marker  cursor-pointer pl-5 text-start hover:underline decoration-rose-600 transition  duration-2000 ease-in-out text-9xl  sm:text-7xl `}
         >
           .786
           <br />
