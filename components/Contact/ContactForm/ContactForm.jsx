@@ -5,14 +5,7 @@ const ContactForm = () => {
   const [showFeed, setShowFeed] = useState(false);
 
   return (
-    <form
-      // style={{
-      //   backgroundColor: "#0d1322",
-      //   backgroundImage:
-      //     'url("https://www.transparenttextures.com/patterns/argyle.png")',
-      // }}
-      className={styles.form}
-    >
+    <form className={styles.form}>
       <p className={styles.formTitle}>
         GET <br /> IN <br /> TOUCH
       </p>
