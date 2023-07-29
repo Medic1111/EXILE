@@ -14,7 +14,7 @@ export const styles = {
   hoursLi: "flex w-full justify-between",
   form: "bg-slate-50 border-solid  border-[#0d1322] w-full  h-full  min-h-screen  flex flex-col items-start justify-start  gap-10 p-5 lg:px-10 py-10  ",
   formTitle:
-    "font-marker text-#0d1322 mt-10  text-8xl sm:text-[11rem] xl:text-[20rem] xl:text-[15rem]  mb-10",
+    "font-marker text-#0d1322 mt-10  text-8xl sm:text-[11rem] xl:text-[14rem]  mb-10",
   input:
     "  text-#0d1322 text-2xl w-full h-[7.5vh] h-20  outline-rose-600  pl-[0.25em] ",
   submit:

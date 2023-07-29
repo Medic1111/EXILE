@@ -1,4 +1,3 @@
-import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import { styles } from "./styles";
 
 const DropTab = ({ id, title, stateFoo, state }) => {
