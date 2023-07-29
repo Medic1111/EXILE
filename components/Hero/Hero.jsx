@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { styles } from "./styles";
 
 const Hero = () => {
@@ -16,7 +15,6 @@ const Hero = () => {
         href={"/main"}
         className={styles.btn}
       >
-        {/* <AiOutlineArrowRight /> */}
         {">"}
       </Link>
     </section>
