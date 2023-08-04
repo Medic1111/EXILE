@@ -36,10 +36,7 @@ const ShopVideo = ({ url, title, text, index }) => {
           </p>
         </div>
         <p className="py-5 md:py-0 tracking-wide text-xl md:2xl md:max-w-[80%]  text-[#0d1322]">
-          Check out exactly where we the studio is located. Although on Collins
-          Ave (ocean ave.), the studio is located inside a typical miami beach
-          archtecture courtyard. Enjoy the ride as we show you how to get find
-          us beyond what the eyes can see.
+          {text}
         </p>
       </div>
       <video
