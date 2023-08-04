@@ -3,7 +3,7 @@ export const styles = {
   mainContainer: "h-[100%] flex  flex-col justify-between w-full   ",
   infoBox: " border-t-4 border-solid border-[#0d1322] ",
   infoP:
-    "h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl  pl-1   font-light  border-solid border-[#0d1322]",
+    " h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl  pl-5   font-lighter  border-solid border-[#0d1322]",
   redSpan: "text-rose-700",
   btnImgBoxOutter: "mb-10 h-full  flex items-start gap-5 justify-end flex-col ",
   btnImgBox:
