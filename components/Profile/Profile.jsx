@@ -32,7 +32,11 @@ const Profile = ({ title, exp, portfolio, book, src }) => {
             BOOK
           </Link>
           <div className={styles.imgBox}>
-            <Image className={styles.img} src={src} />
+            <Image
+              alt="Artists from the tattoo piercing shop"
+              className={styles.img}
+              src={src}
+            />
           </div>
         </div>
       </div>
