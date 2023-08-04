@@ -17,12 +17,26 @@ const Profile = ({ title, exp, portfolio, book, src }) => {
           </p>
         </div>
         <div className={styles.btnImgBox}>
-          <Link href={`/main/portfolio/${portfolio}`} className={styles.btn}>
+          <Link
+            target="_blank"
+            href={`https://www.instagram.com/cass.tatts/?hl=en`}
+            className={styles.btn}
+          >
             PORTFOLIO
           </Link>
-          <button className={`${styles.btn} border-y-2`}>BOOK</button>
+          <Link
+            target="_blank"
+            href={`https://calendly.com/paganowebdev/60min`}
+            className={`${styles.btn} border-y-2`}
+          >
+            BOOK
+          </Link>
           <div className={styles.imgBox}>
-            <Image className={styles.img} src={src} />
+            <Image
+              alt="Artists from the tattoo piercing shop"
+              className={styles.img}
+              src={src}
+            />
           </div>
         </div>
       </div>

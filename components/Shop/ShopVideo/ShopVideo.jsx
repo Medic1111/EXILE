@@ -6,8 +6,8 @@ const ShopVideo = ({ url }) => {
         loop
         muted
         autoPlay
-        defaultMuted
-        webkit-playsinline
+        defaultmuted="true"
+        webkit-playsinline="true"
         playsInline
         controls
       >
