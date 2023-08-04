@@ -1,15 +1,15 @@
 import ContactForm from "./ContactForm/ContactForm";
-import { styles } from "./styles";
 import Map from "./Map/Map";
 import Phone from "./Phone/Phone";
+import Wrapper from "./Wrapper/Wrapper";
 
 const Contact = () => {
   return (
-    <section className={styles.section}>
+    <Wrapper>
       <ContactForm />
       <Phone />
       <Map />
-    </section>
+    </Wrapper>
   );
 };
 

@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  scroll-behavior: smooth;
-  background-color: #0d1322;
+@layer base {
+  html,
+  body {
+    scroll-behavior: smooth;
+    background-color: #0d1322;
+  }
 }
