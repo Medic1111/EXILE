@@ -12,11 +12,11 @@ export const styles = {
   hoursUl: "text-slate-600 list-none w-full sm:w-1/3 flex flex-col gap-1",
   hoursTitle: "text-xl text-[#0d1322] mb-5",
   hoursLi: "flex w-full justify-between",
-  form: "bg-slate-50 border-solid  border-[#0d1322] w-full  h-full  min-h-screen  flex flex-col items-start justify-start  gap-10 p-5 lg:px-10 py-10  ",
+  form: "bg-slate-50 border-solid  border-[#0d1322] w-full  h-full  min-h-screen  flex flex-col items-start justify-start  gap-5 p-5 lg:px-10   ",
   formTitle:
-    "font-marker text-#0d1322 mt-10  text-8xl sm:text-[11rem] xl:text-[14rem]  mb-10",
+    "font-marker text-#0d1322   text-8xl sm:text-[9rem] xl:text-[11rem] ",
   input:
-    "  text-#0d1322 text-2xl w-full h-[7.5vh] h-20  outline-rose-600  pl-[0.25em] ",
+    "  text-#0d1322 text-xl w-full h-20 xl:h-16 outline-rose-600  pl-[0.25em] ",
   submit:
-    "font-marker bg-rose-600 font-light text-2xl lg:text-3xl mt-10 w-full h-20 md:h-26 lg:h-24   border-solid border-4 outline-amber-400  cursor-pointer text-#0d1322 pl-[0.25em]  border-[#0d1322] px-5 uppercase hover:bg-slate-50 ",
+    "font-marker bg-rose-600 font-light text-5xl  mt-10 w-full h-20  md:h-26 lg:h-20   border-solid border-4 outline-amber-400  cursor-pointer text-#0d1322 pl-[0.25em]  border-[#0d1322] px-5 uppercase hover:bg-slate-50 ",
 };

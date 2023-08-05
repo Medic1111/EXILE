@@ -20,7 +20,7 @@ const ContactForm = () => {
       <input
         data-testid="submit"
         type="submit"
-        value={"TTYS"}
+        value={">"}
         className={styles.submit}
       />
     </form>

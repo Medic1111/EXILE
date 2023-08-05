@@ -29,7 +29,7 @@ const ShopVideo = ({ url, title, text, index }) => {
         <div>
           <p className="uppercase h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
             EPISODE-{" "}
-            <span className="text-bold text-rose-700"> 0{index + 1} </span>{" "}
+            <span className="text-bold text-rose-600"> 0{index + 1} </span>{" "}
           </p>
           <p className="uppercase h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
             {title}
