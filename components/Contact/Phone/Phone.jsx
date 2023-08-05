@@ -1,18 +1,14 @@
 import { styles } from "../styles";
-
+import { AiOutlinePhone } from "react-icons/ai";
 const Phone = () => {
   return (
-    <div className=" px-5  pb-[15vh] pt-[10vh] h-[70vh] sm:h-auto  flex items-center justify-start">
+    <div className="fixed  bottom-2 right-2">
       <a
         href="tel:786507-5653"
         aria-label="7 8 6. 5 0 7. 5 6 5 3."
-        className={`${styles.formTitle} font-marker  cursor-pointer  text-start hover:underline decoration-rose-600 transition  duration-2000 ease-in-out text-8xl  sm:text-7xl md:text-9xl  xl:text-[14rem]`}
+        className={` text-rose-500 hover:text-rose-700 text-6xl font-marker  cursor-pointer `}
       >
-        .786
-        <br />
-        .507
-        <br />
-        .5653
+        <AiOutlinePhone />
       </a>
     </div>
   );
