@@ -24,7 +24,7 @@ const ShopVideo = ({ url, title, text, index }) => {
     // TEST
     // -------------------
 
-    <div className="overflow-auto md:flex md:justify-between  p-5 lg:p-10  col-span-1 text-2xl sm:text-3xl md:text-5xl  col-span-4 ">
+    <div className="overflow-auto md:flex md:justify-between  p-5 lg:py-10  col-span-1 text-2xl sm:text-3xl md:text-5xl  col-span-4 ">
       <div className=" md:w-1/2 md:flex gap-7 md:flex-col ">
         <div>
           <p className="uppercase h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
