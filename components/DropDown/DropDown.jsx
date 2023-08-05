@@ -51,7 +51,7 @@ const DropDown = () => {
           portfolio={"jorian"}
         />
       )}
-      <div className="px-5 flex gap-5 flex-wrap justify-between items-center font-marker   bg-slate-50 border-solid border-b-4  border-[#0d1322]  w-full text-end   text-[#0d1322] text-[1em] sm:text-xl  md:text-4xl md:text-5xl xl:text-7xl  min-h-[18vh] sm:min-h-[25vh] ">
+      <div className="px-5 flex gap-5 flex-wrap justify-between items-center font-marker   bg-slate-50 border-solid border-b-4  border-[#0d1322]  w-full text-end   text-[#0d1322] text-[1em] sm:text-xl  md:text-5xl xl:text-5xl  min-h-[18vh] sm:min-h-[25vh] ">
         <p className="   text-rose-600">Sun</p>
         <p className=" text-rose-600">Mon</p>
         <p>Tue</p>
