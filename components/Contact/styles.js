@@ -5,13 +5,7 @@ export const styles = {
   textBox: "h-full",
   h2: "text-[#0d1322] text-3xl lg:text-5xl lg:w-[90%]",
   span: "my-5 lg:my-10  flex  gap-3  text-l",
-  icon: "text-2xl",
-  anchor: "text-amber-500 underline hover:text-amber-600",
-  p: "text-blue-950",
   map: "w-full  h-screen   -hue-rotate-30 border-solid border-t-4 border-[#0d1322]",
-  hoursUl: "text-slate-600 list-none w-full sm:w-1/3 flex flex-col gap-1",
-  hoursTitle: "text-xl text-[#0d1322] mb-5",
-  hoursLi: "flex w-full justify-between",
   form: "bg-slate-50 border-solid  border-[#0d1322] w-full  h-full  min-h-screen  flex flex-col items-start justify-start  gap-5 p-5 lg:px-10   ",
   formTitle:
     "font-marker text-#0d1322   text-8xl sm:text-[9rem] xl:text-[11rem] ",
