@@ -24,23 +24,35 @@ const ShopVideo = ({ url, title, text, index }) => {
     // TEST
     // -------------------
 
-    <div className="overflow-auto md:flex md:justify-between  p-5 lg:py-10  col-span-1 text-2xl sm:text-3xl md:text-5xl  col-span-4 ">
-      <div className=" md:w-1/2 md:flex gap-7 md:flex-col ">
+    <div className="overflow-auto lg:flex lg:justify-between  p-5 lg:py-10   text-2xl sm:text-3xl md:text-5xl ">
+      <div className=" pb-5 lg:pb-0 lg:w-1/2 md:flex gap-7 md:flex-col justify-between">
         <div>
-          <p className="uppercase h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
-            EPISODE-{" "}
-            <span className="text-bold text-rose-600"> 0{index + 1} </span>{" "}
-          </p>
-          <p className="uppercase h-[7.5vh] text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
-            {title}
+          <div>
+            <p className="pb-2 uppercase text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
+              EPISODE-{" "}
+              <span className="text-bold text-rose-600"> 0{index + 1} </span>{" "}
+            </p>
+            <p className="uppercase text-[#0d1322] flex items-center justify-start text-3xl sm:text-5xl     font-light  border-solid border-[#0d1322]">
+              {title}
+            </p>
+          </div>
+          <p className=" pt-5 pb-10  tracking-wide text-xl md:2xl lg:max-w-[80%]  text-[#0d1322]">
+            {text}
           </p>
         </div>
-        <p className="py-5 md:py-0 tracking-wide text-xl md:2xl md:max-w-[80%]  text-[#0d1322]">
-          {text}
-        </p>
+        <div className="text-xs  uppercase lg:text-md w-full lg:max-w-[80%] flex justify-between">
+          <a className=" underline cursor-pointer hover:text-rose-600 text-rose-400">
+            transcript
+          </a>
+          {index === 3 && (
+            <a className=" underline cursor-pointer hover:text-rose-600 text-rose-400">
+              Download Care Guide
+            </a>
+          )}
+        </div>
       </div>
       <video
-        className="border-solid border-2 border-[#0d1322]  object-cover w-full md:w-1/2 md:h-full "
+        className=" border-solid border-2 border-[#0d1322]  object-cover w-full lg:w-1/2 lg:h-full "
         loop
         muted
         autoPlay
@@ -49,6 +61,13 @@ const ShopVideo = ({ url, title, text, index }) => {
         playsInline
         controls
       >
+        <track
+          label="English"
+          kind="subtitles"
+          srclang="en"
+          src="captions/vtt/sintel-en.vtt"
+          default
+        />
         <source src={url} type="video/mp4" />
         Your browser does not support the video tag. I suggest you upgrade your
         browser.
