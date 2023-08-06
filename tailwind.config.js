@@ -13,6 +13,11 @@ module.exports = {
       marker: ["Permanent Marker", "cursive"],
       san: ["Open Sans", "sans-serif"],
     },
+    extend: {
+      cursor: {
+        pointer: "url(../public/tatmach.svg), auto",
+      },
+    },
   },
   plugins: [],
 };
